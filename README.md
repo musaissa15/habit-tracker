@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Long-term projects
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## **Deliverables**
 
-In the project directory, you can run:
+The following are required for each project:
 
-### `npm start`
+1. Source control via GitHub, and a sharable Repo that you'd be proud to show potential employers.
+2. Take special account for accessibility issues
+3. Instructions on how to run/build the app should be documented in a README.
+4. Error Handling.
+5. Test Driven Development.
+6. Bonus points for hosting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Technology**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+These are intended to be longer-term tasks, so try to treat each one like you would on a live dev team. The technologies learned during your time on the course should be enough to complete the below, but consider spiking alternatives if you'd like to broaden your horizons and see what else is possible.
 
-### `npm test`
+### **Estimated time to complete**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We'd recommend spending at least a week on each of these projects, but really "how long is a pieceOf.toString()?" Once you've worked through the initial requirements, feel free to make your project into whatever you dare to dream... Thought of another feature? Pop it in. Spotted something you could refactor to make your codebase EVEN more beautiful? Be our guest! Ready to move onto something different? Fair enough, you crack on...
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Can we build it? Yes we KANBAN**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A Trello-style project management board to manage all of your important code tasks now you're a fully-fledged developer.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Long description**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Requirements**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We're going full-stack with this one. You'll need yourself a RESTful API and a good-looking front-end that'll allow you to do the following:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Create a kanban-style todo list app:
 
-## Learn More
+   - This should allow users to add, delete, move and update tickets.
+   - Each ticket added should provide an overview of the task at hand. When the user clicks into a ticket, they should be able to see more detailed information regarding that task.
+   - Think about what the user will see when they complete each of the above actions, what would be a positive user experience, and what information would be useful to include?
+   - Tickets should be colour-coded, dependent on their urgency.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Create different workspaces to group different lists together:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - A user should be able to keep their (for example) work and personal todo lists separate. There is no limit to how many lists may be in each workspace, nor how many workspaces a user may have.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Extension**
 
-### Analyzing the Bundle Size
+1. Allow users to invite others to share and collaborate on lists.
+   - Think about the best way to facilitate this so that multiple users can interact with the same page in real-time.
+   - How will users be notified of their invitation to contribute?
+   - Will each user account be password-protected? How are we going to keep things secure?
+     - What will happen if someone who doesn't have an account tries to view our list?
+     - What if someone has an account but hasn't been invited to contribute to our list?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### **Resources**
 
-### Making a Progressive Web App
+- https://trello.com (for inspiration)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **Habit Tracker**
 
-### Deployment
+Apparently (we googled) it takes 21 days to form a new habit, and 90 days for that new habit to become a permanent fixture in your lifestyle. We want you to build an online portal where users can form and track habits, with insight into their journey, and encouragement to keep going.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+### **Long description**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Requirements**
+
+We're going full-stack with this one. You'll need yourself a RESTful API and a good-looking front-end that'll allow your users to do the following:
+
+1. Declare a new habit they would like to form, and track how it's going. This may include any combination of the following:
+   - A "daily check-in" feature.
+   - A visualisation of how many days they have completed so far, and how many are left until the next milestone.
+   - A forum to discuss their journey with like-minded habit forgers.
+   - A notice board of motivational articles.
+   - A tracker to record and review how much time they have spent working on their habit.
+   - A badge-based reward system. Checked-in every day for a week? Here, have a virtual medal.
+
+---
+
+**Extension**
+
+- Let's get personal. Find a way to customise the content (articles, forum pages etc) that your user sees in the platform, based on the nature of the habit they're trying to forge.
+- Allow users to add each other as "friends". Friends should be able to see the progress that their friends are making, and comment on each other's achievements.
+
+---
